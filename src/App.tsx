@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import AboutMe from "./components/AboutMe";
 import Experiences from "./components/Experiences";
+import Projects from "./components/Projects";
 
 const App: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const App: React.FC = () => {
       <LandingPage />
       <AboutMe />
       <Experiences />
+      <Projects />
     </div>
   );
 };
