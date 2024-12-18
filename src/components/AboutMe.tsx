@@ -4,7 +4,7 @@ const AboutMe: React.FC = () => {
   return (
     <section
       id="about"
-      className="h-screen flex flex-col justify-center items-center bg-white text-gray-900"
+      className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-purple-700 text-white"
     >
       {/* About Me Text */}
       <h2 className="text-4xl font-bold mb-4">About Me</h2>

@@ -30,7 +30,7 @@ const Experiences: React.FC = () => {
       id="experiences"
       className="min-h-screen py-16 bg-gray-100 text-gray-900 px-8"
     >
-      <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
+      <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl mb-8 text-center">
         Experience
       </h2>
       <div className="space-y-8">
