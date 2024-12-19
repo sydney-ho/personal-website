@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     title: "Metaverse Horizon Captures",
-    description: "Summer 2024 intern project for Meta where I revamped data fondations for the Metaverse Horizon Captures team by building out data pipelines, source of truth datasets, and analytics dashboards.",
+    description: "Summer 2024 intern project for Meta where I revamped data foundations for the Metaverse Horizon Captures team by building out data pipelines, source of truth datasets, and analytics dashboards.",
     image: "meta.png",
     explanation: "As part of my intern project at Meta, I built out multiple data pipelines, source of truth datasets, and analytics dashboards for the Horizon Captures feature using Meta internal tools. Previously, the Horizon Captures team had an outdated live-time dashboard for feature performance, health, and growth tracking. To revamp the data foundations for this team, I created new data pipelines, implemented several data quality checks, developed a novel anonymization technique for user data, and created dashboards.",
     media: "meta.png",
@@ -25,27 +25,27 @@ const projects = [
     title: "Cosmestics Recommender System",
     description: "Application that recommends cosmetics based on user preferences and skin type using information retrieval techniques on skincare stored in a MySQL database.",
     image: "skincare.jpg",
-    explanation: "Information retrieval system that recommends cosmetics based on user preferences and skin type.",
+    explanation: "Information retrieval system that recommends cosmetics based on user preferences and skin type. The system uses a MySQL database to store information on skincare products and their respective attributes. It then uses TF-IDF vectorization, cosine similarity, and boolean search to recommend products based on user input, with a user interface that allows users to input their preferences and skin type to receive recommendations.",
     media: "cosmetics.png",
-    link: ""
+    link: "https://docs.google.com/document/d/1E_j_bppXEBR2012O1oS9JwMydLz5astqTOczbSvQ-0U/edit?usp=sharing"
   },
   {
     id: 4,
     title: "Airbnb Analysis",
     description: "Analysis of Airbnb listings in New York City to determine key factors that impact the pricing of Airbnb listings and how prices have changed over time.",
     image: "airbnb.jpg",
-    explanation: "",
-    media: "",
-    link: ""
+    explanation: "The project analyzes Airbnb listings in New York City to determine key factors that impact the pricing of Airbnb listings and how prices have changed over time. The project was split into two milestones:\n1. Data Cleaning, Exploration, and Visualization: Cleaned the dataset, performed exploratory data analysis, and visualized the data to determine key factors that impact pricing.\n2. Analysis: Analyzed how prices have changed over time, built a linear regression model to predict prices, and used time series forecasting to predic future demand. Below is an excerpt from a report on the analysis.",
+    media: "airbnb_sample.png",
+    link: "https://github.com/sydney-ho/Airbnb-Analysis"
   },
   {
     id: 5,
     title: "ARISE Visual Analytics",
     description: "Research project conducted at the NYU ARISE program that analyzes IEEE Visualization publications data.",
     image: "nyu.jpg",
-    explanation: "",
-    media: "",
-    link: ""
+    explanation: "IEEE Visualization is the premier conference for data visualization research. This project analyzes the publications from the conference to determine trends and insights in the field. It uses TF-IDF vectorization and K-means clustering to determine what were the main topics in each 'track' of the conference. The research project concludes with visualizations of the different conference tracks and their respective topics.",
+    media: "poster.png",
+    link: "https://github.com/sydney-ho/publications-dataset-analysis"
   },
 ];
 
